@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "SafeReport",
+    "slug": "safereport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.jpg",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.safereport.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.jpg",
+        "backgroundColor": "#121212"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "SafeReport Progressive Web App",
+      "shortName": "SafeReport",
+      "themeColor": "#121212",
+      "backgroundColor": "#121212",
+      "display": "standalone"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "adbdacae-8adc-4698-95df-6f91b5d5f7b6"
+      }
+    }
+  }
+}

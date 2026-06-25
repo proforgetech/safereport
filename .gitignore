@@ -1,0 +1,23 @@
+# Python / Backend
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/sql_app.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Expo / React Native / Frontend
+frontend/node_modules/
+frontend/.expo/
+frontend/dist/
+frontend/web-build/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Editor/System configs
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.local
