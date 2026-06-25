@@ -4,7 +4,7 @@ import { Platform } from 'react-native';
 
 // For physical devices or Android emulators, this might need to change
 // (e.g., 10.0.2.2 for Android emulator, or your local network IP).
-const BASE_URL = 'https://odd-rules-hang.loca.lt';
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:8000';
 
 const client = axios.create({
   baseURL: BASE_URL,
